@@ -7,11 +7,13 @@
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Syberia stuff.
+$(call inherit-product, vendor/syberia/common.mk)
+
+$(call inherit-product, vendor/gapps/config.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_alioth
+PRODUCT_NAME := syberia_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_BRAND := POCO
 PRODUCT_MANUFACTURER := Xiaomi
