@@ -32,6 +32,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Smart Charge
 PRODUCT_PACKAGES += \
     vendor.syberia.smartcharge@1.0-service
+	
+# Snap
+PRODUCT_PACKAGES += \
+    Snap
 
 # Updater
 PRODUCT_PACKAGES += \
