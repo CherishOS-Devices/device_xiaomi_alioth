@@ -12,6 +12,8 @@ $(call inherit-product, vendor/syberia/common.mk)
 
 $(call inherit-product, vendor/gapps/config.mk)
 
+PRODUCT_CHARACTERISTICS := nosdcard
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := syberia_alioth
 PRODUCT_DEVICE := alioth
