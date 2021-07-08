@@ -470,9 +470,6 @@ vendor/lib64/libmulticam_image_optical_zoom.so
 vendor/lib64/libmulticam_optical_zoom_control.so
 vendor/lib64/libmulticam_video_optical_zoom.so
 
-#Display
-vendor/lib64/hw/displayfeature.default.so
-
 # Display-calibration
 vendor/etc/mdss_dsi_k11a_38_08_0a_dsc_cmd_mi.xml
 vendor/etc/ltm_config_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
@@ -845,7 +842,6 @@ vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/lib/libsensorslog.so
-vendor/lib/libsensor_cal_for_citvendorservice.so
 vendor/lib/libssc.so
 vendor/lib/libssccalapi.so
 vendor/lib/libssc_default_listener.so
@@ -855,7 +851,6 @@ vendor/lib/sensors.touch.so
 vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorslog.so
-vendor/lib64/libsensor_cal_for_citvendorservice.so
 vendor/lib64/libssc.so
 vendor/lib64/libssccalapi.so
 vendor/lib64/libssc_default_listener.so
@@ -886,25 +881,6 @@ vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermald-devices.conf
 
-# Xiaomi Citsensorservice/Citvendorservice 
-vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service
-vendor/bin/hw/vendor.xiaomi.hardware.citvendorservice@1.0-service
-vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.citvendorservice@1.0-service.rc
-vendor/lib/hw/vendor.xiaomi.hardware.citvendorservice@1.0-impl.so
-vendor/lib/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.1.so
-vendor/lib/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so
-vendor/lib/vendor.xiaomi.hardware.citvendorservice@1.0.so
-vendor/lib64/hw/vendor.xiaomi.hardware.citvendorservice@1.0-impl.so
-vendor/lib64/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0_vendor.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1_vendor.so
-vendor/lib64/vendor.xiaomi.hardware.citvendorservice@1.0.so
 
 
 
