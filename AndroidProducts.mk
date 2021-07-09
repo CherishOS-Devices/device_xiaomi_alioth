@@ -5,9 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_alioth.mk
-
-COMMON_LUNCH_CHOICES := \
-    syberia_alioth-user \
-    syberia_alioth-userdebug \
-    syberia_alioth-eng
+    $(LOCAL_DIR)/cherish_alioth.mk
