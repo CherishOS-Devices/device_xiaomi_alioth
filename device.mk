@@ -15,6 +15,10 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 #Audio
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/xiaomi/alioth/audio,$(TARGET_COPY_OUT_VENDOR)/etc)
 
+#Camera Go
+PRODUCT_PACKAGES += \
+     CameraGo
+
 # Keylayout
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl \
@@ -28,15 +32,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
-
-# Smart Charge
-PRODUCT_PACKAGES += \
-    vendor.syberia.smartcharge@1.0-service
 	
-# Snap
-PRODUCT_PACKAGES += \
-    Snap
-
 # Updater
 PRODUCT_PACKAGES += \
     Updater
